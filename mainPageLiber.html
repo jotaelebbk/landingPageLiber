@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Liber</title>
+</head>
+
+<body>
+
+    <header>
+        <div id="menu">
+            <img class="logo" src="logoLiberTamanhoCerto.png" alt="Logo Liber">
+
+            <nav class="navBar">
+                <ul class="navBar2">
+                    <li class="home" style="list-style-type: none;"><a href="#sobre">Sobre o Liber</a></li>
+                    <li class="home" style="list-style-type: none;"><a href="#preReg">Pré-Registro</a></li>
+                    <li class="home" style="list-style-type: none;"><a href="#fotosLiber">Fotos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <div class="sectionSobre">
+        <h2 id="sobre">Sobre o Liber</h2>
+        <div class="textoImagens">
+            <p id="textosdapag">Compre seus livros de um novo jeito e em poucos cliques! Baixe o "app" e fique por dentro de todas as funcionalidades inovadoras que trazemos para você.</p>
+            <img class="imagens" src="homePageLiberSemEdit.png" alt="home page">
+            <img class="imagens" src="bookPageLiberSemEdit.png" alt="pagina do livro">
+        </div>
+    </div>
+
+    <form class="form">
+        <div style="width: 100%;">
+            <h2 id="preReg">Pré-Registro</h2>
+
+        </div>
+        <div id="oformula" style="width: 100%;">
+
+            <label><strong>Nome:</strong></label>
+            <input class="inputs" style="width: 30%;" type="text" required> <br>
+            <label><strong>Sobrenome:</strong></label>
+            <input class="inputs" style="width: 30%;" type="text" required> <br>
+
+            <div>
+                <label for=""><strong>Seu melhor e-mail:</strong> </label>
+                <input class="inputs" type="email" required>
+            </div>
+            <div id="estados"></div>
+            <label><strong>Selecione seu estado:</strong></label>
+            <select class="inputs" name="estados" id="estados">
+                <option selected disabled>Selecione um estado</option>
+                <option value="">Acre</option>
+                <option value="">Alagoas</option>
+                <option value="">Amapá</option>
+                <option value="">Amazonas</option>
+                <option value="">Bahia</option>
+                <option value="">Ceará</option>
+                <option value="">Distrito Federal</option>
+                <option value="">Espírito Santo</option>
+                <option value="">Goiás</option>
+                <option value="">Maranhão</option>
+                <option value="">Mato Grosso</option>
+                <option value="">Mato Grosso do Sul</option>
+                <option value="">Minas Gerais</option>
+                <option value="">Pará</option>
+                <option value="">Paraíba</option>
+                <option value="">Paraná</option>
+                <option value="">Pernambuco</option>
+                <option value="">Piauí</option>
+                <option value="">Rio de Janeiro</option>
+                <option value="">Rio Grande do Norte</option>
+                <option value="">Rio Grande do Sul</option>
+                <option value="">Rondônia</option>
+                <option value="">Roraima</option>
+                <option value="">Santa Catarina</option>
+                <option value="">São Paulo</option>
+                <option value="">Sergipe</option>
+                <option value="">Tocantins</option>
+            </select>
+            <div id="opcoes">
+                <label for=""><strong>Qual a chance de você recomendar o Liber?</strong></label> <br>
+                <input type="radio" name="chance" value="Alta" checked>Alta
+                <input type="radio" name="chance" value="Media">Media
+                <input type="radio" name="chance" value="Baixa">Baixa
+            </div>
+            <div>
+                <button class="inputs" type="submit">Concluído</button>
+            </div>
+    </form>
+    </div>
+
+</body>
+
+</html>
